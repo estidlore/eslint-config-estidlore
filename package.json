@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-estidlore",
+  "version": "1.0.0",
+  "description": "EsLint multiple configs for JS projects",
+  "author": {
+    "email": "estidlore@outlook.com",
+    "name": "Estid Felipe Lozano Reyes",
+    "url": "https://github.com/estidlore"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  },
+  "files": [
+    "./index.js",
+    "./jest.js",
+    "./react.js",
+    "./typescript.js"
+  ],
+  "keywords": [
+    "config",
+    "eslint",
+    "javascript",
+    "jest",
+    "lint",
+    "prettier",
+    "react",
+    "rules",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "*",
+    "prettier": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/estidlore/eslint-config-estidlore"
+  }
+}
