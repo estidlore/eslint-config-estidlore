@@ -19,10 +19,11 @@
     "eslint": "^8.34.0"
   },
   "files": [
-    "./index.js",
-    "./jest.js",
-    "./react.js",
-    "./typescript.js"
+    "index.js",
+    "jest.js",
+    ".prettierrc.js",
+    "react.js",
+    "typescript.js"
   ],
   "keywords": [
     "config",
