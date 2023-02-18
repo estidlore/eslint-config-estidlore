@@ -21,7 +21,7 @@
   "files": [
     "index.js",
     "jest.js",
-    ".prettierrc.js",
+    "prettier.config.js",
     "react.js",
     "typescript.js"
   ],
