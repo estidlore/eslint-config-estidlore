@@ -55,6 +55,7 @@ module.exports = {
         allow: "single-child"
       }
     ],
+    "react/jsx-sort-props": "error",
     "react/jsx-uses-vars": "error",
     "react/no-children-prop": "error",
     "react/no-deprecated": "error",
