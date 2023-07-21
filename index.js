@@ -6,13 +6,7 @@ module.exports = {
   plugins: ["import", "simple-import-sort"],
   rules: {
     camelcase: "error",
-    "comma-spacing": [
-      "error",
-      {
-        after: true,
-        before: false
-      }
-    ],
+    "comma-spacing": "off",
     complexity: ["error", 20],
     "constructor-super": "error",
     curly: ["error", "all"],
